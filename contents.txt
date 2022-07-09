@@ -1,0 +1,152 @@
+INTRODUCTION                                                                              577
+7. EFFECTS OF AEROELASTICITY ON STABILITY AND CONTROL                                      579
+	7.1 EXAMPLES OF AEROELASTIC BEHAVIOR                                                       579
+		7.1.1 Aileron Reversal                                                                     579
+		7.1.2 Wing Divergence                                                                      582
+		7.1.3 Elevator Control Power Reduction due to Aft Fuselage Bending                         583
+	7.2 INTRODUCTION TO AERODYNAMIC AND STRUCTURAL INFLUENCECOEFFICIENT MATRICES               586
+		7.2.1 Aerodynamic Influence Coefficients for Rigid Airplanes                               587
+		7.2.2 Structural Influence Coefficients for Elastic Airplanes                              590
+	7.3 STABILITY AND CONTROL CHARACTERISTICS OF ELASTIC AIRPLANES IN STEADY STATE FLIGHT      593
+	7.4 STABILITY AND CONTROL CHARACTERISTICS OF ELASTIC AIRPLANES IN PERTURBED STATE FLIGHT 597
+		7.4.1 Derivation of Elastic Airplane Stability Derivatives for Perturbed State Flight 597
+		7.4.2 Interpretation and Use of Elastic Airplane Stability Derivatives 602
+	7.5 DETERMINING THE nG SHAPE OF ELASTIC AIRPLANES 608
+		7.5.1 Detennining the Jig Shape 608
+		7.5.2 Detennining the Equilibrium Angle of Attack Distribution 609
+	7.6 DETERMINING LATERAL-DIRECTIONAL DERIVATIVES FOR ELASTIC AIRPLANES 611
+		7.6.1 Determination of the Roll Damping Derivative for an Elastic Airplane 611
+		7.6.2 Detennination of the Directional Stability Derivative for an Elastic Airplane 613
+	7.7 NUMERICAL EXAMPLES OF ELASTIC AIRPLANE STABILITY AND CONTROL DERIVATIVES 615
+		7.7.1 Numerical Examples: Longitudinal Stability Derivatives                                                         615
+		7.7.2 Numerical Examples: Lateral-Directional Stability Derivatives                                                  615
+	7.8 SUMMARY FOR CHAPTER 7                                                                                            622
+	7.9 PROBLEMS FOR CHAPTER 7                                                                                           623
+	7.10 REFERENCES FOR CHAPTER 7                                                                                        625
+8. THEORY AND APPLICATIONS OF BODE PLOTS                                                                             627
+	8.1 INTRODUCTION TO THE FREQUENCY RESPONSE OF LINEAR SYSTEMS                                                        629
+	8.2 DETERMINATION OF THE FREQUENCY RESPONSE OF LINEAR SYSTEMS DIRECTLY FROM THE SYSTEM OPEN LOOP TRANSFER FUNCTION   637
+	8.3 ASYMPTOTIC APPROXIMATIONS TO REAL FREQUENCY RESPONSE OF TRANSFER FUNCTIONS                                       645
+		8.3.1 Differentiators and Integrators                                                                                645
+		8.3.2 FIrst Order Lead and Lag Transfer Functions                                                                    648
+		8.3.3 Second Order Lead and Lag Transfer Functions                                                                   653
+		8.3.4 Summary of Amplitude and Phase Angle Properties of First and Second Transfer Functions                         657
+	8.4 APPUCATIONS OF BODE PLOTS TO AIRPLANES                                                                           659
+		8.4.1 Bode Plots for Speed, Angle of Attack and Pitch Attitude Angle Response to Elevator Inputs                     662
+		8.4.2 Bode Plots for Sideslip Angle, Bank Angle and Heading Angle Response to Aileron and Rudder Inputs              668
+	8.5 AN INVERSE APPUCATION OF BODE PLOTS                                                                              678
+	8.6 SUMMARY FOR CHAPTER 8                                                                                            683
+	8.7 PROBLEMS FOR CHAPTER 8                                                                                           683
+	8.8 REFERENCES FOR CHAPTER 8                                                                                         684
+9. CLASSICAL CONTROL THEORY WITH APPLICATIONS TO AIRPLANES 685
+	9.1 EXAMPLE OF THE POTENTIAL OF FEEDBACK CONTROL                                 688
+	9.2 BASIC RELATIONSHIPS AND DEFINITIONS USED IN FEEDBACK CONTROL SYSTEMS         692
+	9.3 THE ROOT LOCUS METHOD                                                        696
+		9.3.1 Root Locus Fundamentals                                                    696
+		9.3.2 Root Locus Asymptotes                                                      703
+		9.3.3 Breakaway Angle from a Complex Pole                                        706
+		9.3.4 Step-by-Step Construction of a Root Locus Diagram                          707
+	9.4 APPUCATION OF THE THE BODE PLOT METHOD TO CONTROL SYSTEM ANALYSIS            711
+	9.5 CONNECTION BETWEEN THE FREQUENCY DOMAIN AND THE TIME DOMAIN 715
+	9.6 SYSTEM PERFORMANCE SPECIFICATIONS 725
+		9.6.1 Frequency Domain Specifications                                  725
+		9.6.2 Time Domain Specifications                                       728
+		9.6.3 Error and Error Constant Specifications                          730
+			9.6.3.1 Error characteristics of unity negative feedback systems       731
+			9.6.3.2 Error characteristics of general systems                       734
+		9.6.4 System Sensitivity                                               737
+	9.7 SOME FEEDBACK CONTROL SYSTEM DESIGN APPUCATIONS                    738
+		9.7.1 A Multiple Feedback Loop System: Pole Assignment                 738
+		9.7.2 Setting System Gain to Achieve a Specified Damping Ratio 742
+		9.7.3 Setting Gain to Achieve a Specified Gain Margin and Position Error Constant 743
+		9.7.4 Finding Lag Compensation to Alter the Breakaway Angle from Complex Poles 744
+		9.7.5 Finding a Lead-Lag Compensator to Increase System Gain Margin 746
+		9.7.6 Using Cancellation Compensation to Achieve Better Oosed Loop Characteristics 750
+		9.7.7 Root Contours for Variable Poles 753
+		9.7.8 Root Contours for Variable Zeros 756
+	9.8 SUMMARY FOR CHAPTER 9                                                 759
+	9.9 PROBLEMS FOR CHAPTER 9                                                759
+	9.10 REFERENCES FOR CHAPTER 9                                             761
+10. ANALYSIS OF AIRPLANE PLUS PILOT AS A CLOSED LOOP CONTROL SYSTEM       763
+	10.1 THE HUMAN PILOT TRANSFER FUNCTION                                    763
+	10.2 PILOT CONTROL OF BANK ANGLE                                          768
+	10.2 PILOT CONTROL OF PITCH ATTITUDE ANGLE                                774
+	10.4 SUMMARY FOR CHAPTER 10                                               777
+	10.5 PROBLEMS FOR CHAPTER 10                                              777
+	10.6 REFERENCES FOR CHAPTER 10                                            777
+11. STABILITY AUGMENTATION AND AUTOMATIC FLIGHT CONTROL SYSTEMS           779
+	11.1 YAW DAMPERS                                                          780
+	11.2 PITCH DAMPERS                                                        789
+	11.3 STATIC STABILITY AUGMENTATION SYSTEMS                                793
+		11.3.1 Angle-of-attack Feedback to the Longitudinal Controls              793
+		11.3.2 Load Factor Feedback to the Longitudinal Controls                  794
+		11.3.3 Sideslip Feedback to the Directional Controls                      797
+	11.4 BASIC AUTOPILOT SYSTEMS                                              801
+	11.5 BASIC LONGITUDINAL AUTOPILOT MODES                                   804
+		11.5.1 Pitch Attitude Hold Mode                                           804
+		11.5.2 Altitude Hold Mode                                                 813
+		11.5.3 Airspeed or Mach Number Hold Mode                                  816
+			11.5.3.1 Airspeed hold mode using autothrottles                           817
+			11.5.3.2 Airspeed hold mode using speedbrakes                             819
+			11.5.3.3 Mach hold using the elevator                                     823
+			11.5.3.4 Mach tuck control (Mach trim)                                    824
+		11.5.4 Control Wheel Steering Mode                                        828
+	11.6 BASIC LATERAL-DIRECTIONAL AUTOPILOT MODES                            833
+		11.6.1 Bank Angle Hold Mode                                               833
+		11.6.2 Heading Angle Hold Mode                                            836
+		11.6.3 Tum Rate Mode at Constant Speed and Altitude                       838
+		11.6.4 Thm Coordination (Zero Lateral Acceleration)                       839
+	11.7 LONGITUDINAL NAVIGATION MODES                                        841
+		11.7.1 Approach Categories and Guidance                                   841
+		11.7.2 Glideslope Hold Mode                                               843
+		11.7.3 Automatic Flare Mode                                               852
+	11.8 LATERAL-DIRECTIONAL NAVIGATION MODES                                 857
+		11.8.1 LocalizerHoldMode                                                  857
+		11.8.2 V.O.R. Hold Mode                                                   866
+	11.9 MULTIPLE LOOP, MULTIPLE VARIABLE CONlROL SYSTEMS                     868
+	11.10 SEPARATE SURFACE CONlROL SYSTEMS                                    873
+		11.10.1 Introduction and Definitions                                      873
+		11.10.2 Closed Loop Analysis of Separate Surface Control Systems          874
+	11.11 SUMMARY FOR CHAPTER 11                                              879
+	11.12 PROBLEMS FOR CHAPTER 11                                             879
+	11.13 REFERENCES FOR CHAPTER 11                                           880
+12. FUNDAMENTALS OF DIGITAL CONTROL SYSTEM ANALYSIS                       881
+	12.1 IN1RODUCTION TO SIGNAL SAMPLING                                      881
+	12.2 LAPLACE TRANSFORMS AND SAMPLED DATA SYSTEMS                          884
+		12.2.1 The Uniqueness Problem                                             884
+		12.2.2 The Laplace Transform of the Sampled Unit Step                     885
+		12.2.3 The Laplace Transform of the Sampled Function: e-'                 885
+		12.2.4 On the Periodicity of: ['(s)                                       886
+	12.3 RECONSTRUCTION OF ANALOG DATA FROM SAMPLED DATA                      886
+		12.3.1 Introductory Observations                                          886
+		12.3.2 The 2'.ero Order Hold                                              888
+		12.3.3 The First Order Hold                                               890
+	12.4 FUNDAMENTALS OF Z-TRANSFORM THEORY                                   893
+		12.4.1 Definition and Derivation ofZ-Transforms                           893
+		12.4.2 Mapping of the 8-Plane into the z-Plane                            899
+		12.4.3 Mapping of Constant Damping Loci                                   901
+		12.4.4 Mapping of Constant Frequency Loci                                 901
+		12.4.5 Mapping of Constant Damping Ratio Loci                             903
+		12.4.6 Mapping of Constant Undamped Natural Frequency Loci                904
+		12.4.7 Inverse z-Transforms                                               906
+		12.4.8 Important z-Transform Properties                                   908
+	12.5 AN APPUCATION OF Z-TRANSFORMS                                        911
+		12.5.1 The Pulse Transfer Function of Sampled Data Systems                911
+		12.5.2 Closed Loop Sampled Data Systems                                   915
+		12.5.3 A Simple Bank Angle Control System                                 917
+	12.6 EFFECT OF SAMPLING FREQUENCY ON THE STABIUTY OF DIGITAL SYSTEMS      924
+		12.6.1 Jury's Test                                                        924
+		12.6.2 Routh-Hurwitz Criterion                                            927
+		12.6.3 The Root-Locus Method                                   929
+	12.7 RELATIONS BETWEEN THE S-, Z- AND TIME DOMAINS             929
+	12.8 SUMMARY FOR CHAPTER 12                                    931
+	12.9 PROBLEMS FOR CHAPTER 12                                   931
+	12.10 REFERENCES FOR CHAPTER 12                                932
+APPENDIX E: HARDWARE ASPECfS OF AUTOPILOT SYSTEMS              933
+	El AUTOPILOT AND SENSOR FUNDAMENTALS                           933
+		E1.1 Pitch Attitude Angle and Bank Angle                      933
+		E1.2 Heading Angle                                             933
+		E1.3 Angular Rates                                             936
+	E2 AUTOPILOT MODES                                             936
+	E3 REFERENCES                                                  938
+INDEX TO PARTS I AND II                                        939
