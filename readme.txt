@@ -3,6 +3,4 @@
 3. run add_bookmark.py
 4. your output file is new_file.pdf
 
-*number in first line of contents.txt is (page number as shown by a pdf-reader minus actual book page number)
-
 Thank You!
